@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funcionarios da Firma</title>
+</head>
+<body>
+
+    <h1>Funcionários da Firma</h1>
+    <table>
+        <tr th:each="funcionario : ${funcionarios}">
+            <td th:text="${funcionario.registro}"></td>
+            <td th:text="${funcionario.nome}"></td>
+            <td th:text="${funcionario.centroCusto}"></td>
+            <td th:text="${funcionario.departamento}"></td>
+            <td th:text="${funcionario.funcao}"></td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,11 +1,16 @@
 package com.example.ac1_atividade2_using_database.entidade;
-
+import java.io.Serializable;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class Funcionario {
-
+public class Funcionario implements Serializable {
+        
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
+    
     @Id
     private int registro;
     private String nome;
