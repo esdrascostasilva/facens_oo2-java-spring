@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br"  xmlns:th="http://thymeleaf.org"
-                    xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +7,10 @@
 </head>
 <body>
     <h1>Cadastro de Funcionário</h1>
-    <form method="POST">
+
+    <h3><a href="/funcionarios">Lista de Funcionarios</a></h3>
+
+    <form method="post">
         Nome: <input type="text" value="" name="nome"/>
         Centro de Custo: <input type="text" value="" name="centroCusto"/>
         Departamento: <input type="text" value="" name="departamento"/>

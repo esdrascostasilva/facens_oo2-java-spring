@@ -20,8 +20,4 @@ public class FuncionarioServico {
 
     }
 
-    public List<Funcionario> saveFuncionarios(){
-        return repository.saveAll(saveFuncionarios());
-    }
-
 }
