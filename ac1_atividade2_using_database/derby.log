@@ -1,5 +1,5 @@
-Sun Apr 19 20:47:37 BRT 2020 Thread[Thread-5,5,main] Cleanup action starting
-java.sql.SQLException: Failed to start database 'dbfuncionario' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@5c29bfd, see the next exception for details.
+Sun Apr 19 23:44:23 BRT 2020 Thread[Thread-5,5,main] Cleanup action starting
+java.sql.SQLException: Failed to start database 'dbfuncionario' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@368239c8, see the next exception for details.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
@@ -15,7 +15,7 @@ java.sql.SQLException: Failed to start database 'dbfuncionario' with class loade
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: ERROR XJ040: Failed to start database 'dbfuncionario' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@5c29bfd, see the next exception for details.
+Caused by: ERROR XJ040: Failed to start database 'dbfuncionario' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@368239c8, see the next exception for details.
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
 	... 15 more
@@ -194,8 +194,8 @@ ERROR XSDB6: Another instance of Derby may have already booted the database C:\U
 	at java.base/java.lang.Thread.run(Thread.java:834)
 ============= end nested exception, level (2) ===========
 Cleanup action completed
-Sun Apr 19 20:47:40 BRT 2020 Thread[Thread-6,5,main] Cleanup action starting
-java.sql.SQLException: Failed to start database 'dbfuncionario' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@5c29bfd, see the next exception for details.
+Sun Apr 19 23:44:25 BRT 2020 Thread[Thread-6,5,main] Cleanup action starting
+java.sql.SQLException: Failed to start database 'dbfuncionario' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@368239c8, see the next exception for details.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
@@ -211,7 +211,7 @@ java.sql.SQLException: Failed to start database 'dbfuncionario' with class loade
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: ERROR XJ040: Failed to start database 'dbfuncionario' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@5c29bfd, see the next exception for details.
+Caused by: ERROR XJ040: Failed to start database 'dbfuncionario' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@368239c8, see the next exception for details.
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
 	... 15 more
@@ -390,8 +390,8 @@ ERROR XSDB6: Another instance of Derby may have already booted the database C:\U
 	at java.base/java.lang.Thread.run(Thread.java:834)
 ============= end nested exception, level (2) ===========
 Cleanup action completed
-Sun Apr 19 20:47:43 BRT 2020 Thread[Thread-7,5,main] Cleanup action starting
-java.sql.SQLException: Failed to start database 'dbfuncionario' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@5c29bfd, see the next exception for details.
+Sun Apr 19 23:44:28 BRT 2020 Thread[Thread-7,5,main] Cleanup action starting
+java.sql.SQLException: Failed to start database 'dbfuncionario' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@368239c8, see the next exception for details.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
@@ -407,7 +407,7 @@ java.sql.SQLException: Failed to start database 'dbfuncionario' with class loade
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: ERROR XJ040: Failed to start database 'dbfuncionario' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@5c29bfd, see the next exception for details.
+Caused by: ERROR XJ040: Failed to start database 'dbfuncionario' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@368239c8, see the next exception for details.
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
 	... 15 more
@@ -586,8 +586,8 @@ ERROR XSDB6: Another instance of Derby may have already booted the database C:\U
 	at java.base/java.lang.Thread.run(Thread.java:834)
 ============= end nested exception, level (2) ===========
 Cleanup action completed
-Sun Apr 19 20:47:44 BRT 2020 Thread[Thread-8,5,main] Cleanup action starting
-java.sql.SQLException: Failed to start database 'dbfuncionario' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@5c29bfd, see the next exception for details.
+Sun Apr 19 23:44:29 BRT 2020 Thread[Thread-8,5,main] Cleanup action starting
+java.sql.SQLException: Failed to start database 'dbfuncionario' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@368239c8, see the next exception for details.
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
 	at org.apache.derby.impl.jdbc.Util.seeNextException(Unknown Source)
@@ -603,7 +603,7 @@ java.sql.SQLException: Failed to start database 'dbfuncionario' with class loade
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-Caused by: ERROR XJ040: Failed to start database 'dbfuncionario' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@5c29bfd, see the next exception for details.
+Caused by: ERROR XJ040: Failed to start database 'dbfuncionario' with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@368239c8, see the next exception for details.
 	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
 	at org.apache.derby.impl.jdbc.SQLExceptionFactory.wrapArgsForTransportAcrossDRDA(Unknown Source)
 	... 15 more

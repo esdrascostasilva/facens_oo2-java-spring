@@ -18,6 +18,9 @@ public class Funcionario implements Serializable {
     private String departamento;
     private String funcao;
 
+    //Constructor??
+
+
     public int getRegistro() {
         return registro;
     }
